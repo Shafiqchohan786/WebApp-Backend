@@ -47,3 +47,5 @@ app.use('/auth', AuthRouter);
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+console.log("EMAIL_USER:", process.env.EMAIL_USER);
+console.log("EMAIL_PASS:", process.env.EMAIL_PASS ? "✔️ Exists" : "❌ Missing");
