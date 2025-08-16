@@ -10,10 +10,7 @@ const PORT = process.env.PORT || 8080;
 
 // Allowed origins list — add your frontend URL(s) here
 const allowedOrigins = [
-  'http://localhost:3000',
-  'http://127.0.0.1:3000',
   'http://localhost:5173',   // agar Vite ya koi aur port use kar rahe ho to add karo
-  'http://localhost:3001',
   'https://mern-login-signup-webapp-fronend.vercel.app'  // agar kabhi port change ho jaye to use karna as fallback
 ];
 
